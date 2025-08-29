@@ -13,38 +13,38 @@ A comprehensive Command-Line Interface (CLI) application for managing restaurant
 
 ## Menu Options
 0. Exit the Program
-  - Gracefully exits the application
+     - Gracefully exits the application
 1. View All Restaurants
-  - Displays all restaurants with average ratings
-  - Shows: ID, Name, Average Rating
+     - Displays all restaurants with average ratings
+     - Shows: ID, Name, Average Rating
 2. Find Restaurant by Name
-  - Searches restaurants by name (case-insensitive)
-  - Workflow: Enter search term → View matching results
+     - Searches restaurants by name (case-insensitive)
+     - Workflow: Enter search term → View matching results
 3. View Restaurant Reviews
-  - Shows all reviews for a specific restaurant
-  - Workflow: Select restaurant → View star ratings and comments
+     - Shows all reviews for a specific restaurant
+     - Workflow: Select restaurant → View star ratings and comments
 4. View Restaurant Menu
-  - Displays menu items for a specific restaurant
-  - Shows: Item name, price, description
+     - Displays menu items for a specific restaurant
+     - Shows: Item name, price, description
 5. Add New Restaurant
-  - Creates a new restaurant entry
-  - Input: Restaurant name
-  - Validation: Prevents duplicate names
+     - Creates a new restaurant entry
+     - Input: Restaurant name
+     - Validation: Prevents duplicate names
 6. Add Restaurant Review
-  - Adds a customer review with rating and comment
-  - Workflow: Select restaurant → Enter rating (1-5) → Add comment
-  - Validation: Rating must be 1-5 stars
+     - Adds a customer review with rating and comment
+     - Workflow: Select restaurant → Enter rating (1-5) → Add comment
+     - Validation: Rating must be 1-5 stars
 7. Add Menu Item
-  - Adds new item to restaurant menu
-  - Input: Item name, price, description
-  - Validation: Price must be positive
+     - Adds new item to restaurant menu
+     - Input: Item name, price, description
+     - Validation: Price must be positive
 8. Delete Restaurant
-  - Removes restaurant and all associated data
-  - Workflow: Select restaurant → Confirm deletion
-  - Safety: Confirmation prompt prevents accidents
+     - Removes restaurant and all associated data
+     - Workflow: Select restaurant → Confirm deletion
+     - Safety: Confirmation prompt prevents accidents
 9. Delete Menu Item
-  - Removes specific menu item from restaurant
-  - Workflow: Select restaurant → Select item → Confirm
+     - Removes specific menu item from restaurant
+     - Workflow: Select restaurant → Select item → Confirm
 
 
 ## Dependencies
@@ -56,18 +56,18 @@ A comprehensive Command-Line Interface (CLI) application for managing restaurant
 ## Setup Instructions
 1. Clone or download the project files
 2. Navigate to the project directory
-  - cd restaurant-review-system
+    - cd restaurant-review-system
 3. Install dependencies
-  - pipenv install
+    - pipenv install
 4. Activate the virtual environment
-  - pipenv shell
+    - pipenv shell
 5. Initialize the database
-  - python lib/debug.py
+    -python lib/debug.py
 
 
 ## Usage
 1. Start the application using the command
-  -  python -m lib.cli
+    - python -m lib.cli
 2. Follow the on-screen menu prompts to interact with the system
 3. Input data as requested, ensuring to follow validation rules
 4. Exit the application using option 0 when done
