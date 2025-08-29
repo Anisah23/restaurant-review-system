@@ -62,7 +62,7 @@ A comprehensive Command-Line Interface (CLI) application for managing restaurant
 4. Activate the virtual environment
     - pipenv shell
 5. Initialize the database
-    -python lib/debug.py
+    - python lib/debug.py
 
 
 ## Usage
