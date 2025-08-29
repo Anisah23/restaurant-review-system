@@ -15,7 +15,7 @@ class Restaurant(Base):
     def __repr__(self):
         return f'<Restaurant {self.id}: {self.name}>'
     
-   
+    # ORM Methods 
     @classmethod
     def get_all(cls):
         return session.query(cls).all()
