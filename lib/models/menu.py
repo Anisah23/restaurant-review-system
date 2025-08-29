@@ -41,7 +41,7 @@ class MenuItem(Base):
         session.delete(self)
         session.commit()
     
-   
+    # Validation
     @validates('price')
     def validate_price(self, key, price):
         price = float(price)
