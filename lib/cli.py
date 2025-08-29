@@ -36,3 +36,29 @@ def menu():
     print("9. Delete menu item from restaurant")
     print("="*50)
 
+def handle_choice(choice):
+    if choice == "0":
+        exit_program()
+    elif choice == "1":
+        list_restaurants()
+    elif choice == "2":
+        find_restaurant_by_name()
+    elif choice == "3":
+        view_restaurant_reviews()
+    elif choice == "4":
+        view_restaurant_menu()
+    elif choice == "5":
+        add_restaurant()
+    elif choice == "6":
+        add_review()
+    elif choice == "7":
+        add_menu_item()
+    elif choice == "8":
+        delete_restaurant()
+    elif choice == "9":
+        delete_menu_item()
+    else:
+        print("Invalid choice. Please try again.")
+
+if __name__ == "__main__":
+    main()
