@@ -67,7 +67,7 @@ A comprehensive Command-Line Interface (CLI) application for managing restaurant
 
 ## Usage
 1. Start the application using the command
-    -python -m lib.cli
+    - python -m lib.cli
 2. Follow the on-screen menu prompts to interact with the system
 3. Input data as requested, ensuring to follow validation rules
 4. Exit the application using option 0 when done
