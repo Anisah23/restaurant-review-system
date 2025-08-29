@@ -39,7 +39,7 @@ class Review(Base):
         session.delete(self)
         session.commit()
     
-   
+    # VALIDATION 
     @validates('star_rating')
     def validate_rating(self, key, rating):
         """Ensure rating is between 1 and 5 stars"""
