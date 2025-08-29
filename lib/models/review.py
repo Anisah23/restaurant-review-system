@@ -33,7 +33,7 @@ class Review(Base):
         session.commit()
         return review
     
-    
+    # INSTANCE METHODS
     
     def delete(self):
         session.delete(self)
