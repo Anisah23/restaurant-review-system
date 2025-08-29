@@ -10,7 +10,8 @@ class MenuItem(Base):
     price = Column(Float)
     description = Column(String)
     restaurant_id = Column(Integer, ForeignKey('restaurants.id'))
-  
+    
+    # Relationship
     restaurant = relationship('Restaurant', back_populates='menu_items')
     
     def __repr__(self):
